@@ -7,10 +7,6 @@
     "type": "git",
     "url": "git+https://github.com/spf13/afero.git"
   },
-  "files": [
-    "*.go",
-    "scripts"
-  ],
   "author": "",
   "license": "MIT",
   "bugs": {
