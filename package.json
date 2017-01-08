@@ -1,0 +1,27 @@
+{
+  "name": "go-afero",
+  "version": "1.0.0",
+  "description": "This is an NPM compatible fork of https://github.com/spf13/afero",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spf13/afero.git"
+  },
+  "files": [
+    "*.go",
+    "scripts"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spf13/afero/issues"
+  },
+  "homepage": "https://github.com/spf13/afero",
+  "scripts": {
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "ncp": "^2.0.0"
+  }
+}
